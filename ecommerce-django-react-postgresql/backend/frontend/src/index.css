@@ -1,0 +1,84 @@
+main {
+    min-height: 85vh;
+}
+
+h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
+h2 {
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+}
+
+h3 {
+    padding: 1rem 0;
+}
+
+h4 {
+    padding: 1rem 0;
+}
+
+.noMargin{
+    margin: 0px;
+}
+
+.rating span {
+    margin: 0.1rem;
+}
+
+.hrzPadding {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.noPadding{
+
+    padding: 0px;
+}
+
+.inLine{
+    display: inline-block;
+    vertical-align:baseline;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h4 {
+
+  margin-top: -15px;
+}
+
+.carousel img {
+  display:block;
+  height: 400px;
+  padding: 40px;
+  margin: 10px;
+  margin-top: 50px;
+  /* border-radius: 30%; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 1000px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+
