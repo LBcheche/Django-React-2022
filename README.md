@@ -21,40 +21,40 @@ This final version code uses a Django framework as Backend, a React frameword as
 
 - **Backend**: To run the backend server, activate your virtual environment and type at your main `/backend` folder:
 ``` 
-../backend$ python3 manage.py runserver
+python3 manage.py runserver
 ``` 
 
 - **Frontend**: To run the frontend server, type at `/backend/frontend` folder:
 ```
-.../backend/frontend$ yarn start
+yarn start
 ``` 
 
 #### USER
 
 - **Admin**: To create the first admin user for the backend, activate your virtual environment and type at your main `/backend` folder:
 ```
-../backend$ python3 manage.py superuser
+python3 manage.py superuser
 ``` 
 
 #### UPDATE
 
 - **Database**: If you have updated the database at `models.py`, activate your virtual environment and type this at your main `/backend` folder to update your python database file:
 ```
-../backend$ python3 manage.py makemigrations
+python3 manage.py makemigrations
 ``` 
 Also type this to upload to your database:
 
 ```
-../backend$ python3 manage.py migrate
+python3 manage.py migrate
 ``` 
 
 - **Frontend**: If you have updated your react code, type the following commands to at `/backend/frontend` folder to see all modifications as Django static files:
 ```
-../backend/frontend$ yarn build
+yarn build
 ``` 
 And, at `/backend` folder:
 
 ```
-../backend$ python3 manage.py collectstatic
+python3 manage.py collectstatic
 
 ``` 
