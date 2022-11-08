@@ -48,11 +48,11 @@ Also type this to upload to your database:
 python3 manage.py migrate
 ``` 
 
-- **Frontend**: If you have updated your react code, type the following commands to at `/backend/frontend` folder to see all modifications as Django static files:
+- **Frontend**: If you have updated your react code, type the following commands at `/backend/frontend` folder to see all modifications as Django static files:
 ```
 yarn build
 ``` 
-And, at `/backend` folder:
+Also, at your `/backend` folder:
 
 ```
 python3 manage.py collectstatic
