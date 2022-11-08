@@ -1,4 +1,4 @@
-# DJANGO REACT POSTGRESQL PROJECT 2022
+# DJANGO-REACT-POSTGRESQL PROJECT 2022
 ## AN ECOMMERCE SITE
 
 This [ecommerce site](https://thenoplacemarket.herokuapp.com/) is part of [Leonardo Bcheche's Portfolio](https://github.com/LBcheche). 
@@ -60,5 +60,4 @@ Also, at your `/backend` folder:
 
 ```
 python3 manage.py collectstatic
-
 ``` 
