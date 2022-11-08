@@ -7,7 +7,9 @@ The ecommerce project was developed between October and November 2022 and was ba
 
 All version incompatibilities from these different periods have been resolved so that the code is fully up to date.
 
-This final version code uses a Django framework as Backend, a React frameword as Frontend and a Postgresql Database. You can see the final result at [The No Place Market](https://thenoplacemarket.herokuapp.com/) site.
+This final version code uses a Django framework as Backend, a React frameword as Frontend and a Postgresql Database. 
+
+You can see the final result at [The No Place Market](https://thenoplacemarket.herokuapp.com/) site.
 
 ### PRE-REQUIREMENTS
 
