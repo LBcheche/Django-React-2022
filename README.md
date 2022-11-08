@@ -1,5 +1,5 @@
 # DJANGO REACT POSTGRESQL 2022
-##AN ECOMMERCE SITE
+## AN ECOMMERCE SITE
 
 This [ecommerce site](https://thenoplacemarket.herokuapp.com/) is part of [Leonardo Bcheche's Portfolio](https://github.com/LBcheche). 
 
@@ -9,15 +9,15 @@ All version incompatibilities from these different periods have been resolved so
 
 This final version code uses a Django framework as Backend, a React frameword as Frontend and a Postgresql Database. You can see the final result at [The No Place Market](https://thenoplacemarket.herokuapp.com/) site.
 
-## PRE-REQUIREMENTS
+### PRE-REQUIREMENTS
 
 - **Virtual Environment**: If you want to run this code on your computer, you need to create an python virtual environmnent with all packages at requirements.txt in order to run the django backend. 
 
 - **Data Base**: You also need to configure `backend/settings.py` to run the backend over a local or an external database. You may need to add environment variables at your virtual environment. 
 
-## LIFE CICLE
+### LIFE CICLE
 
-### RUN
+#### RUN
 
 - **Backend**: To run the backend server, activate your virtual environment and type at your main `/backend` folder:
 ``` 
@@ -29,14 +29,14 @@ This final version code uses a Django framework as Backend, a React frameword as
 .../backend/frontend$ yarn start
 ``` 
 
-### USER
+#### USER
 
 - **Admin**: To create the first admin user for the backend, activate your virtual environment and type at your main `/backend` folder:
 ```
 ../backend$ python3 manage.py superuser
 ``` 
 
-### UPDATE
+#### UPDATE
 
 - **Database**: If you have updated the database at `models.py`, activate your virtual environment and type this at your main `/backend` folder to update your python database file:
 ```
