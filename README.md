@@ -58,5 +58,4 @@ Also, at your `/backend` folder:
 
 ```
 python3 manage.py collectstatic
-
 ``` 
