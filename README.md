@@ -13,7 +13,7 @@ This final version code uses a Django framework as Backend, a React frameword as
 
 - **Virtual Environment**: If you want to run this code on your computer, you need to create an python virtual environmnent with all packages at requirements.txt in order to run the django backend. 
 
-- **Data Base**: You also need to configure `backend/settings.py` to run the backend over a local or an external database. You may need to add environment variables at your virtual environment. 
+- **Data Base**: You also need to configure `backend/settings.py` to run the backend over a local or an external database. You may also need to add environment variables at your virtual environment. 
 
 ### LIFE CICLE
 
