@@ -39,6 +39,9 @@ yarn start
 ```
 python3 manage.py superuser
 ``` 
+You can also use our super user at created at mysql:
+username: admin@email.com
+password: admin
 
 #### UPDATE
 
