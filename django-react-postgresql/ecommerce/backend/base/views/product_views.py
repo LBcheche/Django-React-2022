@@ -15,10 +15,10 @@ from datetime import datetime
 def getProducts(request):
 
     query = request.query_params.get('keyword')
-   
+    print(datetime.now().strftime('%H:%M:%S:%Z'))
     print('1. query:', query   )
     page = request.query_params.get('page')
-    # print(datetime.now().strftime('%H:%M:%S:%Z'))
+    print(datetime.now().strftime('%H:%M:%S:%Z'))
     print('2. page:', page   )
    
     if query == None:
@@ -137,6 +137,7 @@ def createProductReview(request, pk):
     product = Product.objects.get(_id=pk)
     data = request.data
 
+    print(data['rating'])
   # 1 - Review already exists
     alreadyExists = product.review_set.filter(user=user).exists()
 
@@ -146,7 +147,7 @@ def createProductReview(request, pk):
 
     # 2 - No Rating or 0
     elif float(data['rating']) == 0:
-    
+        print(data['rating'])
         content = {'detail': 'Please select a rating'}
         return Response(content, status=status.HTTP_400_BAD_REQUEST)
     # 3 - Create review

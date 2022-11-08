@@ -36,19 +36,20 @@ function OrderScreen() {
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
-    // IMPORTANT:
-    // Configure your paypal Client ID at https://developer.paypal.com/ Sandbox App:
-    
-    const clientID = "type your paypal Client ID"
+    // Client ID from https://developer.paypal.com/ Sandbox App:
+    // AVaDYIh7qC8RDNZDEA3N4NL2hMynluSBIJCcR6fURgjIRu02A9AZBxwLMOJaKkix9tNOTZ2WIUcfOM3Y
 
     const addPayPalScript = () => {
         const script = document.createElement("script");
 
         script.type = "text/javascript";
-        script.src = `https://www.paypal.com/sdk/js?client-id=${clientID}`;
+        script.src =
+            "https://www.paypal.com/sdk/js?client-id=AVaDYIh7qC8RDNZDEA3N4NL2hMynluSBIJCcR6fURgjIRu02A9AZBxwLMOJaKkix9tNOTZ2WIUcfOM3Y";
         script.async = true;
         script.currency = "BRL";
-        script.onload = () => {setSdkReady(true)};
+        script.onload = () => {
+            setSdkReady(true);
+        };
 
         document.body.appendChild(script);
     };
