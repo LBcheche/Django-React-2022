@@ -36,15 +36,16 @@ function OrderScreen() {
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
-    // Client ID from https://developer.paypal.com/ Sandbox App:
-    // AVaDYIh7qC8RDNZDEA3N4NL2hMynluSBIJCcR6fURgjIRu02A9AZBxwLMOJaKkix9tNOTZ2WIUcfOM3Y
+    // Create your Paypal Client ID at https://developer.paypal.com/ Sandbox App:
+    
+    const ClientID = "write your Paypal Client ID here"
 
     const addPayPalScript = () => {
         const script = document.createElement("script");
 
         script.type = "text/javascript";
         script.src =
-            "https://www.paypal.com/sdk/js?client-id=AVaDYIh7qC8RDNZDEA3N4NL2hMynluSBIJCcR6fURgjIRu02A9AZBxwLMOJaKkix9tNOTZ2WIUcfOM3Y";
+            `https://www.paypal.com/sdk/js?client-id=${ClientID}`;
         script.async = true;
         script.currency = "BRL";
         script.onload = () => {

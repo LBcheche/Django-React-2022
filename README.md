@@ -17,6 +17,8 @@ You can see the final result at [The No Place Market](https://thenoplacemarket.h
 
 - **Data Base**: You also need to configure `backend/settings.py` to run the backend over a local or an external database. You may also need to add environment variables at your virtual environment. 
 
+- **Paypal Client ID**: Create your own Paypal Client ID at https://developer.paypal.com/ Sandbox App and substitute its value at `frontend/src/screens/OrderScreen.js` to simulate Paypal or Credit Card payments.
+
 ### LIFE CICLE
 
 #### RUN
