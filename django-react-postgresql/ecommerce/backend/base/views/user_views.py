@@ -21,7 +21,6 @@ class MyTokenObtainPairView(TokenObtainPairView):
 def registerUser(request):
 
     data = request.data
-    print('Data:', data)
 
     try:
         # This command writes directly in django's database
@@ -95,7 +94,6 @@ def updateUser (request, pk):
     user = User.objects.get(id=pk)
 
     data = request.data
-    print(data['name'])
     user.first_name = data['name']
     user.email = data['email']
     user.is_staff = data['isAdmin']

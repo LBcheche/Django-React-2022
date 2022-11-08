@@ -4,7 +4,6 @@ from django.contrib.auth.models import User
 # This function is responsable to set a Signal Receiver (Listiner)
 def updateUser(sender, instance, **kwargs):
 
-    # print('Signal Triggered!')
     user = instance
     if user.email != '':
         user.username = user.email

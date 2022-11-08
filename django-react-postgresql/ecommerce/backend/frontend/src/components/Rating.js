@@ -14,12 +14,17 @@ const composeStars = (value, color) =>
             starValue = 1
             ratingValue -= 1 
         }
-        else if (ratingValue === 0.5)
+        else if (ratingValue === 0.5 || (ratingValue > 0.5 && ratingValue < 1) )
         { 
             starValue = ratingValue
             ratingValue -= 0.5
         }
-        else
+        else if (ratingValue > 0 && ratingValue < 0.5)
+        { 
+            starValue = 0
+            ratingValue = 0
+        }
+        else 
             starValue = ratingValue
 
         starsRow.push(<Star key={i} starValue= {starValue} color = {color}/>);
