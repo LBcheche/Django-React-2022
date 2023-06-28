@@ -7,6 +7,8 @@
 > This final version code uses a Django framework as Backend, a React frameword as Frontend and a Postgresql Database. 
 
 You can see the final result at [The No Place Market](https://thenoplacemarket.herokuapp.com/) site.
+> **Warning** :
+> This site is off-line at this moment!
 
 ### PRE-REQUIREMENTS
 
