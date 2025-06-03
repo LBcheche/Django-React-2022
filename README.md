@@ -1,8 +1,8 @@
 # DJANGO-REACT-POSTGRESQL PROJECT 2022
 ## AN ECOMMERCE SITE
 
-> This [ecommerce site](https://thenoplacemarket.herokuapp.com/) is part of [Leonardo Bcheche's Portfolio](https://github.com/LBcheche). 
-> The ecommerce project was developed between October and November 2022 and was based on [Dennis Ivy and Brad Travessy Course](https://www.udemy.com/course/django-with-react-an-ecommerce-website/?src=sac&kw=django+react+e) last updated on February 2021.
+> This ecommerce site is part of [Leonardo Bcheche's Portfolio](https://github.com/LBcheche). 
+> The ecommerce project was developed between October and November 2022 and was based on Dennis Ivy and Brad Travessy Project last updated on February 2021.
 > All version incompatibilities from these different periods have been resolved so the code is fully up to date.
 > This final version code uses a Django framework as Backend, a React frameword as Frontend and a Postgresql Database. 
 
